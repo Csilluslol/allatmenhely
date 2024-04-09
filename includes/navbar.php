@@ -120,6 +120,7 @@ routes.map(([label, to]) => {
   anchor.textContent = label;
   anchor.href = to;
   if (to == page )anchor.classList.add("active")
+  anchor.classList.add("ggver")
   menu.appendChild(anchor);
 
 });
